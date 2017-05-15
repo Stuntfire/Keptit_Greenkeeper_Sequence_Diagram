@@ -22,7 +22,42 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="UMLSequenceDiagram-Greenkeeper.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLSequenceDiagram-Greenkeeper.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLSequenceDiagram-Greenkeeper.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="UMLSequenceDiagram-Greenkeeper+.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLSequenceDiagram-Greenkeeper+.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLSequenceDiagram-Greenkeeper+.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="UMLSequenceDiagram-SeTimer.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLSequenceDiagram-SeTimer.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLSequenceDiagram-SeTimer.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="UMLSequenceDiagram-SeTimer+.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLSequenceDiagram-SeTimer+.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLSequenceDiagram-SeTimer+.sequencediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
+    <Content Include="Keptit_UMLSequenceDiagram1.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Keptit_UMLSequenceDiagram1.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Keptit_UMLSequenceDiagram1.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Keptit_Greenkeeper_Sequence_Diagram.uml">
       <SubType>Content</SubType>
     </Content>
